@@ -39,6 +39,6 @@ const setupButtons = _ => {
   next.position(width*0.5 + 50, height + 20);
   
   next.mouseClicked(_ => {
-    if (currentImg < imgs.length - 1) currentImg++;
+    if (currentImg < 10) currentImg++;
   });
 }
