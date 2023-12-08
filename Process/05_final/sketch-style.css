@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+.radiostyle {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  text-align: left;
+  vertical-align: baseline;
+  margin: auto;
+  float: inline-start;
+}
+
+.radiostylebutton {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: baseline;
+  margin: auto;
+  float: inline-start;
+}
+input[type="radio"] {
+  vertical-align: top;
+}
