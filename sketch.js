@@ -25,6 +25,17 @@ function setup() {
   createCanvas(800, 600);
   rectMode(CENTER);
   preload();
+
+  background(248, 248, 248);
+
+  textAlign(CENTER); 
+  loadFont("assets/Inter.ttf");
+  textSize(32);
+  fill(0);
+  text('Start your artwork by selecting options below', 400, 300);
+  // text('by selecting options below', width/2, height/2+10, 200, 100);
+  
+  
   
   radioBackground = createRadio('Background');
   radioBackground.addClass('radiostyle');

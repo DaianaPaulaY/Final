@@ -1,90 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap 5 Website Example</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Load the Bootstrap Template -->
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Load the P5 libraries -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
-  
-  <link rel="stylesheet" href="style.css" />
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-  
-</head>
-<body>
-  <div class="p-5 bg-primary text-white text-center">
-    <h1>Final Project </h1>
-    <p>Art 365 || MM 621</p>
-  </div>
-  
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container-fluid">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="project.html">Project</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="extra.html">Extra</a>
-        </li>
-      </ul>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Bootstrap 5 Website Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Load the Bootstrap Template -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Load the P5 libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div class="p-5 bg-light text-black text-center">
+      <h1>Final Project </h1>
+      <h5>Art 365 || MM 621</h5>
     </div>
-  </nav>
-  
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-sm-4">
-        <h2>Process</h2>
-        <h3>Step by step of this GenArt Program creation</h5>
-          
-          <p class = "left"> 
-            Starting from scratch the first step was creating many objects (circles, squares, and text) inside for loops to visualize how random objects work together.<br/>
-            <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/00_many-objects-inside-forloops" target="_blank">step 00 have many objects inside for loops</a></p>
+    
+    <nav class="navbar navbar-expand-sm bg-light navbar-light border">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="extra.html">Extra</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Process</h2>
+          <h3>Step by step of this GenArt Program creation</h5>
             
+            <h3 class="top-margin left">Step 0</h3>
             <p class = "left"> 
-              Challenge 1<br/>
-              With a lot of iterations, and using the functions push(), translation(), and pop() I was able to solve the random rotation around the object's own axis.</p>
+              Starting from scratch the first step was creating many objects (circles, squares, and text) inside for loops to visualize how random objects work together.<br/>
+              <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/00_many-objects-inside-forloops" target="_blank">step 0 have many objects inside for loops</a></p>
               
               <p class = "left"> 
-                Challenge 2<br/>
-                I wanted to use random color palettes, so I decided to use a Jason database from this project with a beautiful color set to use. Here is where I realized I needed to combine For-loops with If-else statements:<br/>
-                <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/01_randompalette" target="_blank">step 01 random pallete</a>
-                <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/02_randompalette" target="_blank">step 02 random pallete</a></p>
                 
-                <p class = "left"> 
-                  Then, I was able to include radio buttons and edit values from that selection so the circle sizes could be adjusted to create different variations. At this stage, I struggled with resetting the canvas.<br/>
-                  <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/03_shapes-fixed-but-not%20resetting" target="_blank">step 03 shapes fixed but not resetting</a></p>
-                </p>
+                With a lot of iterations, and using the functions push(), translation(), and pop() I was able to solve the random rotation around the object's own axis.</p>
                 
+                <h3 class="top-margin left">Step 1</h3>
                 <p class = "left"> 
-                  Challenge 3<br/>
-                  After many hits and trying different things, I discovered that I needed to reset the Arrays within the NewArt function so I was able to create a new artwork every time the button New Art is pressed. In this version, I am also including several images for the selection.<br/>
-                  <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/04_adding-images" target="_blank">step 04 adding images</a></p>
                   
+                  I wanted to use random color palettes, so I decided to use a Jason database from this project with a beautiful color set to use.<br/>Here is where I realized I needed to combine For-loops with If-else statements:<br/>
+                  <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/01_randompalette" target="_blank">step 01 random pallete</a></p>
+                  
+                  <h3 class="top-margin left">Step 2</h3>
+                  <p><a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/02_randompalette" target="_blank">step 2 random pallete</a></p>
+                  <h3 class="top-margin left">Step 3</h3>
                   <p class = "left"> 
-                    Finally, I was able to adjust the radio buttons' position and I organized the images amount and selection, to create a more interesting program:<br/>
-                    <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/05_final" target="_blank">step 05 final project</a>
-                    
+                    Then, I was able to include radio buttons and edit values from that selection so the circle sizes could be adjusted to create different variations. At this stage, I struggled with resetting the canvas.<br/>
+                    <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/03_shapes-fixed-but-not%20resetting" target="_blank">step 3 shapes fixed but not resetting</a></p>
                   </p>
+                  <h3 class="top-margin left">Step 4</h3>
+                  <p class = "left"> 
+                    
+                    After many hits and trying different things, I discovered that I needed to reset the Arrays within the NewArt function so I was able to create a new artwork every time the button New Art is pressed. In this version, I am also including several images for the selection.<br/>
+                    <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/04_adding-images" target="_blank">step 4 adding images</a></p>
+                    <h3 class="top-margin left">Step 5</h3>
+                    <p class = "left"> 
+                      Finally, I was able to adjust the radio buttons' position and I organized the images amount and selection, to create a more interesting program:<br/>
+                      <a href="https://github.com/DaianaPaulaY/Final/tree/main/Process/05_final" target="_blank">step 5 final project</a>
+                      
+                    </p>
+                  </div>
+                  
+                  <div class="col-sm-8">
+                    <h2></h2>
+                    <h5>Step 0</h5>
+                    <img src="steps/step00.png" width="500" class="center">
+                    <h5 class="top-margin">Step 1</h5>
+                    <img src="steps/step01.png" width="500" class="center">
+                    <h5 class="top-margin">Step 2</h5>
+                    <img src="steps/step02.png" width="500" class="center">
+                    <h5 class="top-margin">Step 3</h5>
+                    <img src="steps/step03.png" width="500" class="center">
+                    <h5 class="top-margin">Step 4</h5>
+                    <img src="steps/step04.png" width="500" class="center">
+                    <h5 class="top-margin">Step 5</h5>
+                    <img src="steps/step05.png" width="500" class="center">
+                  </div>
                 </div>
               </div>
-            </div>
+              
+              
+              <div class="mt-5 p-4 bg-dark text-white text-center">
+                <p>2023</p>
+              </div>
+            </body>
+            </html>
             
-            <div class="mt-5 p-4 bg-dark text-white text-center">
-              <p>2023</p>
-            </div>
-          </body>
-          </html>
-          
